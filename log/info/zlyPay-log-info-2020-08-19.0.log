@@ -1,0 +1,1144 @@
+2020-08-19 18:44:24.200 INFO  com.medsys.nis.NisApplication Line:50  - Starting NisApplication on DESKTOP-8O1I1KB with PID 8888 (D:\zwStudyWeb\newNISHT\target\classes started by Super in D:\zwStudyWeb\newNISHT)
+2020-08-19 18:44:24.242 INFO  com.medsys.nis.NisApplication Line:647 - No active profile set, falling back to default profiles: default
+2020-08-19 18:44:24.503 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-19 18:44:24.537 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-19 18:44:27.588 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'shiroConfig' of type [com.medsys.nis.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$301e8255] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 18:44:29.850 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'loginServiceImpl' of type [com.medsys.nis.maintain.service.impl.LoginServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 18:44:29.853 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'myShiroRealm' of type [com.medsys.nis.realm.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 18:44:29.860 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 18:44:29.931 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 18:44:30.009 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$822e077c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 18:44:30.987 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 8080 (http)
+2020-08-19 18:44:31.035 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-08-19 18:44:31.035 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-08-19 18:44:31.411 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-08-19 18:44:31.412 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 6872 ms
+2020-08-19 18:44:33.229 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-08-19 18:44:33.617 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-19 18:44:33.692 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:57  - LiveReload server is running on port 35729
+2020-08-19 18:44:33.777 INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Line:54  - Adding welcome page: class path resource [static/index.html]
+2020-08-19 18:44:34.691 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 - Context refreshed
+2020-08-19 18:44:34.721 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 - Found 1 custom documentation plugin(s)
+2020-08-19 18:44:34.770 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2020-08-19 18:44:34.847 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:202 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-19 18:44:34.852 INFO  com.medsys.nis.NisApplication Line:59  - Started NisApplication in 11.743 seconds (JVM running for 15.075)
+2020-08-19 18:46:06.224 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-19 18:46:06.226 INFO  org.springframework.web.servlet.DispatcherServlet Line:524 - Initializing Servlet 'dispatcherServlet'
+2020-08-19 18:46:06.252 INFO  org.springframework.web.servlet.DispatcherServlet Line:546 - Completed initialization in 25 ms
+2020-08-19 18:46:54.097 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-19 18:47:09.881 INFO  com.medsys.nis.NisApplication Line:50  - Starting NisApplication on DESKTOP-8O1I1KB with PID 10492 (D:\zwStudyWeb\newNISHT\target\classes started by Super in D:\zwStudyWeb\newNISHT)
+2020-08-19 18:47:09.888 INFO  com.medsys.nis.NisApplication Line:647 - No active profile set, falling back to default profiles: default
+2020-08-19 18:47:10.073 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-19 18:47:10.074 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-19 18:47:13.339 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'shiroConfig' of type [com.medsys.nis.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$a8248bf7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 18:47:15.600 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'loginServiceImpl' of type [com.medsys.nis.maintain.service.impl.LoginServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 18:47:15.602 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'myShiroRealm' of type [com.medsys.nis.realm.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 18:47:15.612 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 18:47:15.679 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 18:47:15.746 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fa34111e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 18:47:16.667 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 8080 (http)
+2020-08-19 18:47:16.708 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-08-19 18:47:16.709 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-08-19 18:47:17.063 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-08-19 18:47:17.065 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 6990 ms
+2020-08-19 18:47:18.663 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-08-19 18:47:19.056 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-19 18:47:19.121 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:57  - LiveReload server is running on port 35729
+2020-08-19 18:47:19.189 INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Line:54  - Adding welcome page: class path resource [static/index.html]
+2020-08-19 18:47:19.970 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 - Context refreshed
+2020-08-19 18:47:19.996 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 - Found 1 custom documentation plugin(s)
+2020-08-19 18:47:20.040 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2020-08-19 18:47:20.110 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:202 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-19 18:47:20.115 INFO  com.medsys.nis.NisApplication Line:59  - Started NisApplication in 11.743 seconds (JVM running for 15.774)
+2020-08-19 18:47:22.121 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-19 18:47:22.123 INFO  org.springframework.web.servlet.DispatcherServlet Line:524 - Initializing Servlet 'dispatcherServlet'
+2020-08-19 18:47:22.174 INFO  org.springframework.web.servlet.DispatcherServlet Line:546 - Completed initialization in 49 ms
+2020-08-19 18:50:28.734 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-19 18:50:31.886 INFO  com.medsys.nis.NisApplication Line:50  - Starting NisApplication on DESKTOP-8O1I1KB with PID 10492 (D:\zwStudyWeb\newNISHT\target\classes started by Super in D:\zwStudyWeb\newNISHT)
+2020-08-19 18:50:31.886 INFO  com.medsys.nis.NisApplication Line:647 - No active profile set, falling back to default profiles: default
+2020-08-19 18:50:33.467 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'shiroConfig' of type [com.medsys.nis.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$a8248bf7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 18:50:33.490 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'loginServiceImpl' of type [com.medsys.nis.maintain.service.impl.LoginServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 18:50:33.491 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'myShiroRealm' of type [com.medsys.nis.realm.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 18:50:33.493 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 18:50:33.512 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 18:50:33.531 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fa34111e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 18:50:34.535 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 8080 (http)
+2020-08-19 18:50:34.539 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-08-19 18:50:34.545 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-08-19 18:50:34.874 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-08-19 18:50:34.875 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 2985 ms
+2020-08-19 18:50:37.142 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-08-19 18:50:38.118 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-19 18:50:38.201 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:57  - LiveReload server is running on port 35729
+2020-08-19 18:50:38.255 INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Line:54  - Adding welcome page: class path resource [static/index.html]
+2020-08-19 18:50:39.374 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 - Context refreshed
+2020-08-19 18:50:39.379 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 - Found 1 custom documentation plugin(s)
+2020-08-19 18:50:39.405 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2020-08-19 18:50:39.434 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:202 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-19 18:50:39.533 INFO  com.medsys.nis.NisApplication Line:59  - Started NisApplication in 7.778 seconds (JVM running for 215.192)
+2020-08-19 18:50:39.540 INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener Line:63  - Condition evaluation unchanged
+2020-08-19 18:50:40.945 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-19 18:50:44.877 INFO  com.medsys.nis.NisApplication Line:50  - Starting NisApplication on DESKTOP-8O1I1KB with PID 10492 (D:\zwStudyWeb\newNISHT\target\classes started by Super in D:\zwStudyWeb\newNISHT)
+2020-08-19 18:50:44.913 INFO  com.medsys.nis.NisApplication Line:647 - No active profile set, falling back to default profiles: default
+2020-08-19 18:50:48.161 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'shiroConfig' of type [com.medsys.nis.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$a8248bf7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 18:50:48.184 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'loginServiceImpl' of type [com.medsys.nis.maintain.service.impl.LoginServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 18:50:48.186 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'myShiroRealm' of type [com.medsys.nis.realm.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 18:50:48.188 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 18:50:48.241 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 18:50:48.308 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fa34111e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 18:50:49.634 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 8080 (http)
+2020-08-19 18:50:49.638 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-08-19 18:50:49.641 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-08-19 18:50:50.020 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-08-19 18:50:50.022 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 5100 ms
+2020-08-19 18:50:52.048 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-08-19 18:50:52.898 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-19 18:50:52.945 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:57  - LiveReload server is running on port 35729
+2020-08-19 18:50:53.025 INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Line:54  - Adding welcome page: class path resource [static/index.html]
+2020-08-19 18:50:54.183 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 - Context refreshed
+2020-08-19 18:50:54.186 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 - Found 1 custom documentation plugin(s)
+2020-08-19 18:50:54.193 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2020-08-19 18:50:54.206 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:202 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-19 18:50:54.207 INFO  com.medsys.nis.NisApplication Line:59  - Started NisApplication in 9.59 seconds (JVM running for 229.867)
+2020-08-19 18:50:54.211 INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener Line:63  - Condition evaluation unchanged
+2020-08-19 18:50:55.989 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-19 18:50:55.993 INFO  org.springframework.web.servlet.DispatcherServlet Line:524 - Initializing Servlet 'dispatcherServlet'
+2020-08-19 18:50:56.027 INFO  org.springframework.web.servlet.DispatcherServlet Line:546 - Completed initialization in 33 ms
+2020-08-19 18:51:17.191 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-19 18:51:19.776 INFO  com.medsys.nis.NisApplication Line:50  - Starting NisApplication on DESKTOP-8O1I1KB with PID 10492 (D:\zwStudyWeb\newNISHT\target\classes started by Super in D:\zwStudyWeb\newNISHT)
+2020-08-19 18:51:19.776 INFO  com.medsys.nis.NisApplication Line:647 - No active profile set, falling back to default profiles: default
+2020-08-19 18:51:21.713 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'shiroConfig' of type [com.medsys.nis.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$a8248bf7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 18:51:21.743 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'loginServiceImpl' of type [com.medsys.nis.maintain.service.impl.LoginServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 18:51:21.744 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'myShiroRealm' of type [com.medsys.nis.realm.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 18:51:21.746 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 18:51:21.772 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 18:51:21.796 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fa34111e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 18:51:37.330 INFO  com.medsys.nis.NisApplication Line:50  - Starting NisApplication on DESKTOP-8O1I1KB with PID 13644 (D:\zwStudyWeb\newNISHT\target\classes started by Super in D:\zwStudyWeb\newNISHT)
+2020-08-19 18:51:37.338 INFO  com.medsys.nis.NisApplication Line:647 - No active profile set, falling back to default profiles: default
+2020-08-19 18:51:37.433 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-19 18:51:37.434 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-19 18:51:40.901 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'shiroConfig' of type [com.medsys.nis.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$add40cd6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 18:51:43.217 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'loginServiceImpl' of type [com.medsys.nis.maintain.service.impl.LoginServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 18:51:43.219 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'myShiroRealm' of type [com.medsys.nis.realm.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 18:51:43.228 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 18:51:43.306 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 18:51:43.376 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ffe391fd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 18:51:44.443 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 8080 (http)
+2020-08-19 18:51:44.486 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-08-19 18:51:44.488 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-08-19 18:51:44.880 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-08-19 18:51:44.882 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 7446 ms
+2020-08-19 18:51:46.815 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-08-19 18:51:47.223 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-19 18:51:47.294 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:57  - LiveReload server is running on port 35729
+2020-08-19 18:51:47.353 INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Line:54  - Adding welcome page: class path resource [static/index.html]
+2020-08-19 18:51:48.235 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 - Context refreshed
+2020-08-19 18:51:48.260 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 - Found 1 custom documentation plugin(s)
+2020-08-19 18:51:48.307 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2020-08-19 18:51:48.744 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:202 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-19 18:51:48.752 INFO  com.medsys.nis.NisApplication Line:59  - Started NisApplication in 12.522 seconds (JVM running for 16.06)
+2020-08-19 18:51:51.189 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-19 18:51:51.191 INFO  org.springframework.web.servlet.DispatcherServlet Line:524 - Initializing Servlet 'dispatcherServlet'
+2020-08-19 18:51:51.217 INFO  org.springframework.web.servlet.DispatcherServlet Line:546 - Completed initialization in 25 ms
+2020-08-19 18:54:04.065 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-19 18:54:07.928 INFO  com.medsys.nis.NisApplication Line:50  - Starting NisApplication on DESKTOP-8O1I1KB with PID 13644 (D:\zwStudyWeb\newNISHT\target\classes started by Super in D:\zwStudyWeb\newNISHT)
+2020-08-19 18:54:07.930 INFO  com.medsys.nis.NisApplication Line:647 - No active profile set, falling back to default profiles: default
+2020-08-19 18:54:09.244 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'shiroConfig' of type [com.medsys.nis.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$add40cd6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 18:54:09.271 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'loginServiceImpl' of type [com.medsys.nis.maintain.service.impl.LoginServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 18:54:09.272 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'myShiroRealm' of type [com.medsys.nis.realm.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 18:54:09.273 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 18:54:09.289 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 18:54:09.306 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ffe391fd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 18:54:10.475 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 8080 (http)
+2020-08-19 18:54:10.482 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-08-19 18:54:10.483 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-08-19 18:54:10.743 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-08-19 18:54:10.745 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 2802 ms
+2020-08-19 18:54:12.599 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-19 18:54:12.775 INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Line:54  - Adding welcome page: class path resource [static/index.html]
+2020-08-19 18:54:14.632 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:57  - LiveReload server is running on port 35729
+2020-08-19 18:54:14.900 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:202 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-19 18:54:14.905 INFO  com.medsys.nis.NisApplication Line:59  - Started NisApplication in 7.207 seconds (JVM running for 162.214)
+2020-08-19 18:54:14.910 INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener Line:63  - Condition evaluation unchanged
+2020-08-19 18:54:17.747 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-19 18:54:21.833 INFO  com.medsys.nis.NisApplication Line:50  - Starting NisApplication on DESKTOP-8O1I1KB with PID 13644 (D:\zwStudyWeb\newNISHT\target\classes started by Super in D:\zwStudyWeb\newNISHT)
+2020-08-19 18:54:21.834 INFO  com.medsys.nis.NisApplication Line:647 - No active profile set, falling back to default profiles: default
+2020-08-19 18:54:23.480 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'shiroConfig' of type [com.medsys.nis.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$add40cd6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 18:54:23.502 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'loginServiceImpl' of type [com.medsys.nis.maintain.service.impl.LoginServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 18:54:23.503 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'myShiroRealm' of type [com.medsys.nis.realm.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 18:54:23.505 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 18:54:23.524 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 18:54:23.547 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ffe391fd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 18:54:24.569 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 8080 (http)
+2020-08-19 18:54:24.572 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-08-19 18:54:24.579 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-08-19 18:54:24.835 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-08-19 18:54:24.836 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 2997 ms
+2020-08-19 18:54:27.174 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-08-19 18:54:27.729 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-19 18:54:27.787 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:57  - LiveReload server is running on port 35729
+2020-08-19 18:54:27.850 INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Line:54  - Adding welcome page: class path resource [static/index.html]
+2020-08-19 18:54:29.172 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 - Context refreshed
+2020-08-19 18:54:29.176 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 - Found 1 custom documentation plugin(s)
+2020-08-19 18:54:29.190 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2020-08-19 18:54:29.476 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:202 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-19 18:54:29.482 INFO  com.medsys.nis.NisApplication Line:59  - Started NisApplication in 7.792 seconds (JVM running for 176.791)
+2020-08-19 18:54:29.561 INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener Line:58  - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   Swagger2DocumentationConfiguration matched:
+      - @ConditionalOnWebApplication (required) found 'session' scope (OnWebApplicationCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2020-08-19 19:24:28.692 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-19 19:24:33.242 INFO  com.medsys.nis.NisApplication Line:50  - Starting NisApplication on DESKTOP-8O1I1KB with PID 13644 (D:\zwStudyWeb\newNISHT\target\classes started by Super in D:\zwStudyWeb\newNISHT)
+2020-08-19 19:24:33.243 INFO  com.medsys.nis.NisApplication Line:647 - No active profile set, falling back to default profiles: default
+2020-08-19 19:24:36.109 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'shiroConfig' of type [com.medsys.nis.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$add40cd6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:24:36.129 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'loginServiceImpl' of type [com.medsys.nis.maintain.service.impl.LoginServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:24:36.130 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'myShiroRealm' of type [com.medsys.nis.realm.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:24:36.132 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:24:36.149 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:24:36.206 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ffe391fd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:24:37.088 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 8080 (http)
+2020-08-19 19:24:37.091 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-08-19 19:24:37.093 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-08-19 19:24:37.302 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-08-19 19:24:37.304 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 4056 ms
+2020-08-19 19:24:39.112 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-08-19 19:24:39.490 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-19 19:24:39.547 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:57  - LiveReload server is running on port 35729
+2020-08-19 19:24:39.593 INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Line:54  - Adding welcome page: class path resource [static/index.html]
+2020-08-19 19:24:41.493 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 - Context refreshed
+2020-08-19 19:24:41.498 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 - Found 1 custom documentation plugin(s)
+2020-08-19 19:24:41.536 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2020-08-19 19:24:41.908 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:202 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-19 19:24:41.909 INFO  com.medsys.nis.NisApplication Line:59  - Started NisApplication in 8.849 seconds (JVM running for 1989.218)
+2020-08-19 19:24:41.914 INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener Line:63  - Condition evaluation unchanged
+2020-08-19 19:24:43.838 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-19 19:24:47.502 INFO  com.medsys.nis.NisApplication Line:50  - Starting NisApplication on DESKTOP-8O1I1KB with PID 13644 (D:\zwStudyWeb\newNISHT\target\classes started by Super in D:\zwStudyWeb\newNISHT)
+2020-08-19 19:24:47.503 INFO  com.medsys.nis.NisApplication Line:647 - No active profile set, falling back to default profiles: default
+2020-08-19 19:24:50.337 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'shiroConfig' of type [com.medsys.nis.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$add40cd6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:24:50.362 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'loginServiceImpl' of type [com.medsys.nis.maintain.service.impl.LoginServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:24:50.364 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'myShiroRealm' of type [com.medsys.nis.realm.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:24:50.366 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:24:50.426 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:24:50.475 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ffe391fd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:24:52.683 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 8080 (http)
+2020-08-19 19:24:52.691 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-08-19 19:24:52.693 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-08-19 19:24:53.054 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-08-19 19:24:53.055 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 5546 ms
+2020-08-19 19:24:55.043 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-08-19 19:24:55.774 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-19 19:24:55.801 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:57  - LiveReload server is running on port 35729
+2020-08-19 19:24:55.823 INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Line:54  - Adding welcome page: class path resource [static/index.html]
+2020-08-19 19:24:56.528 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 - Context refreshed
+2020-08-19 19:24:56.565 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 - Found 1 custom documentation plugin(s)
+2020-08-19 19:24:56.575 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2020-08-19 19:24:56.872 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:202 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-19 19:24:56.877 INFO  com.medsys.nis.NisApplication Line:59  - Started NisApplication in 9.503 seconds (JVM running for 2004.186)
+2020-08-19 19:24:56.920 INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener Line:63  - Condition evaluation unchanged
+2020-08-19 19:25:05.053 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-19 19:25:08.527 INFO  com.medsys.nis.NisApplication Line:50  - Starting NisApplication on DESKTOP-8O1I1KB with PID 13644 (D:\zwStudyWeb\newNISHT\target\classes started by Super in D:\zwStudyWeb\newNISHT)
+2020-08-19 19:25:08.527 INFO  com.medsys.nis.NisApplication Line:647 - No active profile set, falling back to default profiles: default
+2020-08-19 19:25:09.646 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'shiroConfig' of type [com.medsys.nis.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$add40cd6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:25:09.662 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'loginServiceImpl' of type [com.medsys.nis.maintain.service.impl.LoginServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:25:09.663 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'myShiroRealm' of type [com.medsys.nis.realm.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:25:09.664 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:25:09.682 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:25:09.814 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ffe391fd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:25:11.024 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 8080 (http)
+2020-08-19 19:25:11.027 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-08-19 19:25:11.028 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-08-19 19:25:11.461 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-08-19 19:25:11.461 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 2917 ms
+2020-08-19 19:25:12.993 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-19 19:25:13.150 INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Line:54  - Adding welcome page: class path resource [static/index.html]
+2020-08-19 19:25:14.447 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:57  - LiveReload server is running on port 35729
+2020-08-19 19:25:14.549 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:202 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-19 19:25:14.551 INFO  com.medsys.nis.NisApplication Line:59  - Started NisApplication in 6.437 seconds (JVM running for 2021.86)
+2020-08-19 19:25:14.555 INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener Line:63  - Condition evaluation unchanged
+2020-08-19 19:25:20.346 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-19 19:25:23.890 INFO  com.medsys.nis.NisApplication Line:50  - Starting NisApplication on DESKTOP-8O1I1KB with PID 13644 (D:\zwStudyWeb\newNISHT\target\classes started by Super in D:\zwStudyWeb\newNISHT)
+2020-08-19 19:25:23.891 INFO  com.medsys.nis.NisApplication Line:647 - No active profile set, falling back to default profiles: default
+2020-08-19 19:25:26.050 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'shiroConfig' of type [com.medsys.nis.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$add40cd6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:25:26.088 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'loginServiceImpl' of type [com.medsys.nis.maintain.service.impl.LoginServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:25:26.089 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'myShiroRealm' of type [com.medsys.nis.realm.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:25:26.090 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:25:26.114 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:25:26.138 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ffe391fd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:25:27.460 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 8080 (http)
+2020-08-19 19:25:27.466 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-08-19 19:25:27.471 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-08-19 19:25:27.773 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-08-19 19:25:27.774 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 3876 ms
+2020-08-19 19:25:30.621 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-08-19 19:25:31.645 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-19 19:25:31.709 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:57  - LiveReload server is running on port 35729
+2020-08-19 19:25:31.786 INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Line:54  - Adding welcome page: class path resource [static/index.html]
+2020-08-19 19:25:33.515 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 - Context refreshed
+2020-08-19 19:25:33.518 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 - Found 1 custom documentation plugin(s)
+2020-08-19 19:25:33.526 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2020-08-19 19:25:33.792 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:202 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-19 19:25:33.794 INFO  com.medsys.nis.NisApplication Line:59  - Started NisApplication in 10.112 seconds (JVM running for 2041.102)
+2020-08-19 19:25:33.799 INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener Line:58  - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   Swagger2DocumentationConfiguration matched:
+      - @ConditionalOnWebApplication (required) found 'session' scope (OnWebApplicationCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2020-08-19 19:25:38.171 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-19 19:25:41.757 INFO  com.medsys.nis.NisApplication Line:50  - Starting NisApplication on DESKTOP-8O1I1KB with PID 13644 (D:\zwStudyWeb\newNISHT\target\classes started by Super in D:\zwStudyWeb\newNISHT)
+2020-08-19 19:25:41.757 INFO  com.medsys.nis.NisApplication Line:647 - No active profile set, falling back to default profiles: default
+2020-08-19 19:25:44.505 ERROR org.springframework.boot.SpringApplication Line:822 - Application run failed
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.devtools.autoconfigure.DevToolsDataSourceAutoConfiguration
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader$TrackedConditionEvaluator.shouldSkip(ConfigurationClassBeanDefinitionReader.java:447)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader$TrackedConditionEvaluator.shouldSkip(ConfigurationClassBeanDefinitionReader.java:436)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:128)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:117)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:327)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:232)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:275)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:95)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:705)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:531)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:743)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:390)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1214)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1203)
+	at com.medsys.nis.NisApplication.main(NisApplication.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.medsys.nis.common.config.SwaggerConfig] for bean with name 'swaggerConfig' defined in file [D:\zwStudyWeb\newNISHT\target\classes\com\medsys\nis\common\config\SwaggerConfig.class]; nested exception is java.lang.ClassNotFoundException: com.medsys.nis.common.config.SwaggerConfig
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1392)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:680)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:647)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1518)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:511)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:481)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:475)
+	at org.springframework.boot.devtools.autoconfigure.DevToolsDataSourceAutoConfiguration$DevToolsDataSourceCondition.getMatchOutcome(DevToolsDataSourceAutoConfiguration.java:181)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 23 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.medsys.nis.common.config.SwaggerConfig
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:144)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:275)
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:444)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1457)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1384)
+	... 31 common frames omitted
+2020-08-19 19:25:44.531 WARN  org.springframework.boot.SpringApplication Line:804 - Unable to close ApplicationContext
+org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.medsys.nis.common.config.SwaggerConfig] for bean with name 'swaggerConfig' defined in file [D:\zwStudyWeb\newNISHT\target\classes\com\medsys\nis\common\config\SwaggerConfig.class]; nested exception is java.lang.ClassNotFoundException: com.medsys.nis.common.config.SwaggerConfig
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1392)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:680)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:647)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1518)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:511)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:481)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:594)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1226)
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:865)
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:853)
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:840)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:791)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:322)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1214)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1203)
+	at com.medsys.nis.NisApplication.main(NisApplication.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.ClassNotFoundException: com.medsys.nis.common.config.SwaggerConfig
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:144)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:275)
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:444)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1457)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1384)
+	... 21 common frames omitted
+2020-08-19 19:25:48.745 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-19 19:25:48.748 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-19 19:25:48.767 INFO  com.medsys.nis.NisApplication Line:50  - Starting NisApplication on DESKTOP-8O1I1KB with PID 13644 (D:\zwStudyWeb\newNISHT\target\classes started by Super in D:\zwStudyWeb\newNISHT)
+2020-08-19 19:25:48.768 INFO  com.medsys.nis.NisApplication Line:647 - No active profile set, falling back to default profiles: default
+2020-08-19 19:25:50.891 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'shiroConfig' of type [com.medsys.nis.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$add40cd6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:25:50.934 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'loginServiceImpl' of type [com.medsys.nis.maintain.service.impl.LoginServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:25:50.936 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'myShiroRealm' of type [com.medsys.nis.realm.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:25:50.937 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:25:51.033 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:25:51.058 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ffe391fd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:25:52.576 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 8080 (http)
+2020-08-19 19:25:52.582 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-08-19 19:25:52.585 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-08-19 19:25:52.902 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-08-19 19:25:52.969 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 4195 ms
+2020-08-19 19:25:55.806 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-08-19 19:25:56.603 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-19 19:25:56.714 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:57  - LiveReload server is running on port 35729
+2020-08-19 19:25:56.863 INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Line:54  - Adding welcome page: class path resource [static/index.html]
+2020-08-19 19:25:59.229 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 - Context refreshed
+2020-08-19 19:25:59.231 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 - Found 1 custom documentation plugin(s)
+2020-08-19 19:25:59.241 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2020-08-19 19:25:59.481 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:202 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-19 19:25:59.495 INFO  com.medsys.nis.NisApplication Line:59  - Started NisApplication in 10.8 seconds (JVM running for 2066.804)
+2020-08-19 19:25:59.501 INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener Line:63  - Condition evaluation unchanged
+2020-08-19 19:26:00.677 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-19 19:26:04.510 INFO  com.medsys.nis.NisApplication Line:50  - Starting NisApplication on DESKTOP-8O1I1KB with PID 13644 (D:\zwStudyWeb\newNISHT\target\classes started by Super in D:\zwStudyWeb\newNISHT)
+2020-08-19 19:26:04.511 INFO  com.medsys.nis.NisApplication Line:647 - No active profile set, falling back to default profiles: default
+2020-08-19 19:26:08.080 ERROR org.springframework.boot.SpringApplication Line:822 - Application run failed
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.devtools.autoconfigure.DevToolsDataSourceAutoConfiguration
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader$TrackedConditionEvaluator.shouldSkip(ConfigurationClassBeanDefinitionReader.java:447)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader$TrackedConditionEvaluator.shouldSkip(ConfigurationClassBeanDefinitionReader.java:436)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:128)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:117)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:327)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:232)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:275)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:95)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:705)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:531)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:743)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:390)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1214)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1203)
+	at com.medsys.nis.NisApplication.main(NisApplication.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.medsys.nis.common.config.SwaggerConfig] for bean with name 'swaggerConfig' defined in file [D:\zwStudyWeb\newNISHT\target\classes\com\medsys\nis\common\config\SwaggerConfig.class]; nested exception is java.lang.ClassNotFoundException: com.medsys.nis.common.config.SwaggerConfig
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1392)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:680)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:647)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1518)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:511)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:481)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:475)
+	at org.springframework.boot.devtools.autoconfigure.DevToolsDataSourceAutoConfiguration$DevToolsDataSourceCondition.getMatchOutcome(DevToolsDataSourceAutoConfiguration.java:181)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 23 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.medsys.nis.common.config.SwaggerConfig
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:144)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:275)
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:444)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1457)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1384)
+	... 31 common frames omitted
+2020-08-19 19:26:08.086 WARN  org.springframework.boot.SpringApplication Line:804 - Unable to close ApplicationContext
+org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.medsys.nis.common.config.SwaggerConfig] for bean with name 'swaggerConfig' defined in file [D:\zwStudyWeb\newNISHT\target\classes\com\medsys\nis\common\config\SwaggerConfig.class]; nested exception is java.lang.ClassNotFoundException: com.medsys.nis.common.config.SwaggerConfig
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1392)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:680)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:647)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1518)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:511)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:481)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:594)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1226)
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:865)
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:853)
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:840)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:791)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:322)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1214)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1203)
+	at com.medsys.nis.NisApplication.main(NisApplication.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.ClassNotFoundException: com.medsys.nis.common.config.SwaggerConfig
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:144)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:275)
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:444)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1457)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1384)
+	... 21 common frames omitted
+2020-08-19 19:26:13.345 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-19 19:26:13.348 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-19 19:26:13.370 INFO  com.medsys.nis.NisApplication Line:50  - Starting NisApplication on DESKTOP-8O1I1KB with PID 13644 (D:\zwStudyWeb\newNISHT\target\classes started by Super in D:\zwStudyWeb\newNISHT)
+2020-08-19 19:26:13.371 INFO  com.medsys.nis.NisApplication Line:647 - No active profile set, falling back to default profiles: default
+2020-08-19 19:26:15.738 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'shiroConfig' of type [com.medsys.nis.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$add40cd6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:26:15.754 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'loginServiceImpl' of type [com.medsys.nis.maintain.service.impl.LoginServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:26:15.757 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'myShiroRealm' of type [com.medsys.nis.realm.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:26:15.758 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:26:15.774 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:26:15.801 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ffe391fd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:26:17.670 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 8080 (http)
+2020-08-19 19:26:17.715 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-08-19 19:26:17.721 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-08-19 19:26:17.977 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-08-19 19:26:17.979 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 4597 ms
+2020-08-19 19:26:21.683 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-08-19 19:26:22.397 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-19 19:26:22.514 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:57  - LiveReload server is running on port 35729
+2020-08-19 19:26:22.568 INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Line:54  - Adding welcome page: class path resource [static/index.html]
+2020-08-19 19:26:25.784 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 - Context refreshed
+2020-08-19 19:26:25.787 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 - Found 1 custom documentation plugin(s)
+2020-08-19 19:26:25.794 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2020-08-19 19:26:26.071 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:202 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-19 19:26:26.072 INFO  com.medsys.nis.NisApplication Line:59  - Started NisApplication in 12.774 seconds (JVM running for 2093.381)
+2020-08-19 19:26:26.077 INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener Line:63  - Condition evaluation unchanged
+2020-08-19 19:26:33.783 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-19 19:26:38.828 INFO  com.medsys.nis.NisApplication Line:50  - Starting NisApplication on DESKTOP-8O1I1KB with PID 13644 (D:\zwStudyWeb\newNISHT\target\classes started by Super in D:\zwStudyWeb\newNISHT)
+2020-08-19 19:26:38.829 INFO  com.medsys.nis.NisApplication Line:647 - No active profile set, falling back to default profiles: default
+2020-08-19 19:26:40.567 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'shiroConfig' of type [com.medsys.nis.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$add40cd6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:26:40.754 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'loginServiceImpl' of type [com.medsys.nis.maintain.service.impl.LoginServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:26:40.755 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'myShiroRealm' of type [com.medsys.nis.realm.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:26:40.757 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:26:40.841 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:26:40.868 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ffe391fd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:26:42.972 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 8080 (http)
+2020-08-19 19:26:42.974 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-08-19 19:26:42.975 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-08-19 19:26:43.254 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-08-19 19:26:43.258 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 4424 ms
+2020-08-19 19:26:45.422 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-19 19:26:45.838 INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Line:54  - Adding welcome page: class path resource [static/index.html]
+2020-08-19 19:26:47.062 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:57  - LiveReload server is running on port 35729
+2020-08-19 19:26:47.608 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:202 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-19 19:26:47.610 INFO  com.medsys.nis.NisApplication Line:59  - Started NisApplication in 8.967 seconds (JVM running for 2114.919)
+2020-08-19 19:26:47.615 INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener Line:63  - Condition evaluation unchanged
+2020-08-19 19:26:52.603 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-19 19:26:56.108 INFO  com.medsys.nis.NisApplication Line:50  - Starting NisApplication on DESKTOP-8O1I1KB with PID 13644 (D:\zwStudyWeb\newNISHT\target\classes started by Super in D:\zwStudyWeb\newNISHT)
+2020-08-19 19:26:56.108 INFO  com.medsys.nis.NisApplication Line:647 - No active profile set, falling back to default profiles: default
+2020-08-19 19:26:58.010 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'shiroConfig' of type [com.medsys.nis.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$add40cd6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:26:58.061 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'loginServiceImpl' of type [com.medsys.nis.maintain.service.impl.LoginServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:26:58.062 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'myShiroRealm' of type [com.medsys.nis.realm.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:26:58.064 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:26:58.098 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:26:58.226 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ffe391fd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:26:59.824 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 8080 (http)
+2020-08-19 19:26:59.827 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-08-19 19:26:59.829 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-08-19 19:27:00.141 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-08-19 19:27:00.165 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 4051 ms
+2020-08-19 19:27:02.637 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-08-19 19:27:03.288 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-19 19:27:03.379 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:57  - LiveReload server is running on port 35729
+2020-08-19 19:27:03.424 INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Line:54  - Adding welcome page: class path resource [static/index.html]
+2020-08-19 19:27:05.641 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 - Context refreshed
+2020-08-19 19:27:05.689 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 - Found 1 custom documentation plugin(s)
+2020-08-19 19:27:05.700 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2020-08-19 19:27:06.246 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:202 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-19 19:27:06.267 INFO  com.medsys.nis.NisApplication Line:59  - Started NisApplication in 10.283 seconds (JVM running for 2133.576)
+2020-08-19 19:27:06.291 INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener Line:58  - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   Swagger2DocumentationConfiguration matched:
+      - @ConditionalOnWebApplication (required) found 'session' scope (OnWebApplicationCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2020-08-19 19:27:07.264 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-19 19:27:10.795 INFO  com.medsys.nis.NisApplication Line:50  - Starting NisApplication on DESKTOP-8O1I1KB with PID 13644 (D:\zwStudyWeb\newNISHT\target\classes started by Super in D:\zwStudyWeb\newNISHT)
+2020-08-19 19:27:10.796 INFO  com.medsys.nis.NisApplication Line:647 - No active profile set, falling back to default profiles: default
+2020-08-19 19:27:13.482 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'shiroConfig' of type [com.medsys.nis.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$add40cd6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:27:13.540 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'loginServiceImpl' of type [com.medsys.nis.maintain.service.impl.LoginServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:27:13.541 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'myShiroRealm' of type [com.medsys.nis.realm.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:27:13.543 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:27:13.560 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:27:13.580 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ffe391fd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:27:14.435 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 8080 (http)
+2020-08-19 19:27:14.438 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-08-19 19:27:14.440 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-08-19 19:27:14.598 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-08-19 19:27:14.598 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 3798 ms
+2020-08-19 19:27:16.082 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-08-19 19:27:16.426 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-19 19:27:16.486 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:57  - LiveReload server is running on port 35729
+2020-08-19 19:27:16.533 INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Line:54  - Adding welcome page: class path resource [static/index.html]
+2020-08-19 19:27:17.384 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 - Context refreshed
+2020-08-19 19:27:17.386 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 - Found 1 custom documentation plugin(s)
+2020-08-19 19:27:17.387 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:169 - Skipping initializing disabled plugin bean swagger v2.0
+2020-08-19 19:27:17.397 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:202 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-19 19:27:17.399 INFO  com.medsys.nis.NisApplication Line:59  - Started NisApplication in 6.764 seconds (JVM running for 2144.707)
+2020-08-19 19:27:17.402 INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener Line:63  - Condition evaluation unchanged
+2020-08-19 19:27:51.205 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-19 19:27:55.675 INFO  com.medsys.nis.NisApplication Line:50  - Starting NisApplication on DESKTOP-8O1I1KB with PID 13644 (D:\zwStudyWeb\newNISHT\target\classes started by Super in D:\zwStudyWeb\newNISHT)
+2020-08-19 19:27:55.675 INFO  com.medsys.nis.NisApplication Line:647 - No active profile set, falling back to default profiles: default
+2020-08-19 19:27:58.255 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'shiroConfig' of type [com.medsys.nis.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$add40cd6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:27:58.303 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'loginServiceImpl' of type [com.medsys.nis.maintain.service.impl.LoginServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:27:58.305 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'myShiroRealm' of type [com.medsys.nis.realm.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:27:58.309 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:27:58.352 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:27:58.392 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ffe391fd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:27:59.392 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 8080 (http)
+2020-08-19 19:27:59.395 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-08-19 19:27:59.397 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-08-19 19:27:59.656 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-08-19 19:27:59.656 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 3975 ms
+2020-08-19 19:28:02.049 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-08-19 19:28:02.989 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-19 19:28:03.087 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:57  - LiveReload server is running on port 35729
+2020-08-19 19:28:03.157 INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Line:54  - Adding welcome page: class path resource [static/index.html]
+2020-08-19 19:28:04.496 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 - Context refreshed
+2020-08-19 19:28:04.500 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 - Found 1 custom documentation plugin(s)
+2020-08-19 19:28:04.500 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:169 - Skipping initializing disabled plugin bean swagger v2.0
+2020-08-19 19:28:04.545 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:202 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-19 19:28:04.546 INFO  com.medsys.nis.NisApplication Line:59  - Started NisApplication in 9.276 seconds (JVM running for 2191.855)
+2020-08-19 19:28:04.552 INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener Line:63  - Condition evaluation unchanged
+2020-08-19 19:28:05.940 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-19 19:28:12.060 INFO  com.medsys.nis.NisApplication Line:50  - Starting NisApplication on DESKTOP-8O1I1KB with PID 13644 (D:\zwStudyWeb\newNISHT\target\classes started by Super in D:\zwStudyWeb\newNISHT)
+2020-08-19 19:28:12.060 INFO  com.medsys.nis.NisApplication Line:647 - No active profile set, falling back to default profiles: default
+2020-08-19 19:28:15.417 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'shiroConfig' of type [com.medsys.nis.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$add40cd6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:28:15.437 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'loginServiceImpl' of type [com.medsys.nis.maintain.service.impl.LoginServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:28:15.438 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'myShiroRealm' of type [com.medsys.nis.realm.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:28:15.440 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:28:15.459 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:28:15.490 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ffe391fd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:28:16.867 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 8080 (http)
+2020-08-19 19:28:16.886 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-08-19 19:28:16.896 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-08-19 19:28:17.362 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-08-19 19:28:17.363 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 5295 ms
+2020-08-19 19:28:21.587 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-08-19 19:28:22.588 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-19 19:28:22.651 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:57  - LiveReload server is running on port 35729
+2020-08-19 19:28:22.739 INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Line:54  - Adding welcome page: class path resource [static/index.html]
+2020-08-19 19:28:24.457 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 - Context refreshed
+2020-08-19 19:28:24.460 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 - Found 1 custom documentation plugin(s)
+2020-08-19 19:28:24.460 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:169 - Skipping initializing disabled plugin bean swagger v2.0
+2020-08-19 19:28:24.484 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:202 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-19 19:28:24.487 INFO  com.medsys.nis.NisApplication Line:59  - Started NisApplication in 13.275 seconds (JVM running for 2211.795)
+2020-08-19 19:28:24.493 INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener Line:63  - Condition evaluation unchanged
+2020-08-19 19:28:42.249 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-19 19:28:47.534 INFO  com.medsys.nis.NisApplication Line:50  - Starting NisApplication on DESKTOP-8O1I1KB with PID 13644 (D:\zwStudyWeb\newNISHT\target\classes started by Super in D:\zwStudyWeb\newNISHT)
+2020-08-19 19:28:47.536 INFO  com.medsys.nis.NisApplication Line:647 - No active profile set, falling back to default profiles: default
+2020-08-19 19:28:51.925 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'shiroConfig' of type [com.medsys.nis.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$add40cd6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:28:51.954 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'loginServiceImpl' of type [com.medsys.nis.maintain.service.impl.LoginServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:28:51.955 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'myShiroRealm' of type [com.medsys.nis.realm.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:28:51.956 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:28:51.980 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:28:52.066 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ffe391fd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:28:53.572 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 8080 (http)
+2020-08-19 19:28:53.574 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-08-19 19:28:53.575 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-08-19 19:28:53.771 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-08-19 19:28:53.772 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 6229 ms
+2020-08-19 19:28:54.761 WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext Line:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'storageController': Unsatisfied dependency expressed through field 'storageService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'storageServiceImpl': Unsatisfied dependency expressed through field 'medEmrCodeMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'IMedEmrCodeMapper' defined in file [D:\zwStudyWeb\newNISHT\target\classes\com\medsys\nis\maintain\mapper\IMedEmrCodeMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2020-08-19 19:28:54.763 INFO  org.apache.catalina.core.StandardService Line:173 - Stopping service [Tomcat]
+2020-08-19 19:28:54.811 INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener Line:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-08-19 19:28:54.813 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter Line:40  - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2020-08-19 19:29:03.673 INFO  com.medsys.nis.NisApplication Line:50  - Starting NisApplication on DESKTOP-8O1I1KB with PID 13644 (D:\zwStudyWeb\newNISHT\target\classes started by Super in D:\zwStudyWeb\newNISHT)
+2020-08-19 19:29:03.673 INFO  com.medsys.nis.NisApplication Line:651 - The following profiles are active: dev
+2020-08-19 19:29:06.222 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'shiroConfig' of type [com.medsys.nis.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$add40cd6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:29:06.244 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'loginServiceImpl' of type [com.medsys.nis.maintain.service.impl.LoginServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:29:06.245 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'myShiroRealm' of type [com.medsys.nis.realm.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:29:06.247 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:29:06.273 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:29:06.301 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ffe391fd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:29:07.905 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 8081 (http)
+2020-08-19 19:29:07.908 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-08-19 19:29:07.909 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-08-19 19:29:08.210 INFO  org.apache.catalina.core.ContainerBase.[Tomcat-1].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-08-19 19:29:08.211 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 4533 ms
+2020-08-19 19:29:09.954 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-08-19 19:29:10.668 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-19 19:29:10.724 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:57  - LiveReload server is running on port 35729
+2020-08-19 19:29:10.785 INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Line:54  - Adding welcome page: class path resource [static/index.html]
+2020-08-19 19:29:12.597 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 - Context refreshed
+2020-08-19 19:29:12.600 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 - Found 1 custom documentation plugin(s)
+2020-08-19 19:29:12.610 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2020-08-19 19:29:12.791 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:202 - Tomcat started on port(s): 8081 (http) with context path ''
+2020-08-19 19:29:12.792 INFO  com.medsys.nis.NisApplication Line:59  - Started NisApplication in 9.227 seconds (JVM running for 2260.101)
+2020-08-19 19:29:12.798 INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener Line:63  - Condition evaluation unchanged
+2020-08-19 19:29:52.749 INFO  com.medsys.nis.NisApplication Line:50  - Starting NisApplication on DESKTOP-8O1I1KB with PID 2916 (D:\zwStudyWeb\newNISHT\target\classes started by Super in D:\zwStudyWeb\newNISHT)
+2020-08-19 19:29:52.756 INFO  com.medsys.nis.NisApplication Line:651 - The following profiles are active: dev
+2020-08-19 19:29:52.934 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-19 19:29:52.935 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-19 19:29:55.749 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'shiroConfig' of type [com.medsys.nis.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$f93511e6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:29:57.884 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'loginServiceImpl' of type [com.medsys.nis.maintain.service.impl.LoginServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:29:57.887 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'myShiroRealm' of type [com.medsys.nis.realm.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:29:57.893 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:29:57.988 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:29:58.122 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4b44970d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:29:59.125 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 8081 (http)
+2020-08-19 19:29:59.169 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-08-19 19:29:59.171 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-08-19 19:29:59.539 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-08-19 19:29:59.540 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 6603 ms
+2020-08-19 19:30:01.437 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-08-19 19:30:02.051 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-19 19:30:02.138 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:57  - LiveReload server is running on port 35729
+2020-08-19 19:30:02.380 INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Line:54  - Adding welcome page: class path resource [static/index.html]
+2020-08-19 19:30:03.714 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 - Context refreshed
+2020-08-19 19:30:03.757 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 - Found 1 custom documentation plugin(s)
+2020-08-19 19:30:03.820 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2020-08-19 19:30:04.346 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:202 - Tomcat started on port(s): 8081 (http) with context path ''
+2020-08-19 19:30:04.351 INFO  com.medsys.nis.NisApplication Line:59  - Started NisApplication in 12.866 seconds (JVM running for 15.627)
+2020-08-19 19:30:17.855 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-19 19:30:17.857 INFO  org.springframework.web.servlet.DispatcherServlet Line:524 - Initializing Servlet 'dispatcherServlet'
+2020-08-19 19:30:17.885 INFO  org.springframework.web.servlet.DispatcherServlet Line:546 - Completed initialization in 27 ms
+2020-08-19 19:31:03.017 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-19 19:31:07.740 INFO  com.medsys.nis.NisApplication Line:50  - Starting NisApplication on DESKTOP-8O1I1KB with PID 2916 (D:\zwStudyWeb\newNISHT\target\classes started by Super in D:\zwStudyWeb\newNISHT)
+2020-08-19 19:31:07.740 INFO  com.medsys.nis.NisApplication Line:647 - No active profile set, falling back to default profiles: default
+2020-08-19 19:31:09.514 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'shiroConfig' of type [com.medsys.nis.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$f93511e6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:31:09.538 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'loginServiceImpl' of type [com.medsys.nis.maintain.service.impl.LoginServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:31:09.539 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'myShiroRealm' of type [com.medsys.nis.realm.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:31:09.541 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:31:09.559 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:31:09.576 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4b44970d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:31:10.363 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 8080 (http)
+2020-08-19 19:31:10.366 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-08-19 19:31:10.368 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-08-19 19:31:10.610 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-08-19 19:31:10.615 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 2855 ms
+2020-08-19 19:31:10.987 WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext Line:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'storageController': Unsatisfied dependency expressed through field 'storageService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'storageServiceImpl': Unsatisfied dependency expressed through field 'medEmrCodeMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'IMedEmrCodeMapper' defined in file [D:\zwStudyWeb\newNISHT\target\classes\com\medsys\nis\maintain\mapper\IMedEmrCodeMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2020-08-19 19:31:10.996 INFO  org.apache.catalina.core.StandardService Line:173 - Stopping service [Tomcat]
+2020-08-19 19:31:11.010 INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener Line:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-08-19 19:31:11.025 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter Line:40  - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2020-08-19 19:31:44.933 INFO  com.medsys.nis.NisApplication Line:50  - Starting NisApplication on DESKTOP-8O1I1KB with PID 8836 (D:\zwStudyWeb\newNISHT\target\classes started by Super in D:\zwStudyWeb\newNISHT)
+2020-08-19 19:31:44.939 INFO  com.medsys.nis.NisApplication Line:651 - The following profiles are active: dev
+2020-08-19 19:31:45.063 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-19 19:31:45.065 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-19 19:31:48.909 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'shiroConfig' of type [com.medsys.nis.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$606e58f2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:31:52.147 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'loginServiceImpl' of type [com.medsys.nis.maintain.service.impl.LoginServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:31:52.150 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'myShiroRealm' of type [com.medsys.nis.realm.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:31:52.158 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:31:52.326 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:31:52.601 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b27dde19] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:31:53.948 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 8081 (http)
+2020-08-19 19:31:53.989 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-08-19 19:31:53.991 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-08-19 19:31:54.411 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-08-19 19:31:54.413 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 9346 ms
+2020-08-19 19:31:56.349 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-08-19 19:31:56.871 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-19 19:31:56.964 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:57  - LiveReload server is running on port 35729
+2020-08-19 19:31:57.025 INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Line:54  - Adding welcome page: class path resource [static/index.html]
+2020-08-19 19:31:57.827 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 - Context refreshed
+2020-08-19 19:31:57.852 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 - Found 1 custom documentation plugin(s)
+2020-08-19 19:31:57.897 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2020-08-19 19:31:58.436 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:202 - Tomcat started on port(s): 8081 (http) with context path ''
+2020-08-19 19:31:58.443 INFO  com.medsys.nis.NisApplication Line:59  - Started NisApplication in 14.428 seconds (JVM running for 17.267)
+2020-08-19 19:32:02.501 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-19 19:32:02.503 INFO  org.springframework.web.servlet.DispatcherServlet Line:524 - Initializing Servlet 'dispatcherServlet'
+2020-08-19 19:32:02.524 INFO  org.springframework.web.servlet.DispatcherServlet Line:546 - Completed initialization in 20 ms
+2020-08-19 19:32:13.489 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-19 19:32:16.713 INFO  com.medsys.nis.NisApplication Line:50  - Starting NisApplication on DESKTOP-8O1I1KB with PID 8836 (D:\zwStudyWeb\newNISHT\target\classes started by Super in D:\zwStudyWeb\newNISHT)
+2020-08-19 19:32:16.713 INFO  com.medsys.nis.NisApplication Line:647 - No active profile set, falling back to default profiles: default
+2020-08-19 19:32:17.819 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'shiroConfig' of type [com.medsys.nis.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$606e58f2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:32:17.840 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'loginServiceImpl' of type [com.medsys.nis.maintain.service.impl.LoginServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:32:17.841 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'myShiroRealm' of type [com.medsys.nis.realm.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:32:17.842 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:32:17.857 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:32:17.875 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b27dde19] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:32:18.760 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 8080 (http)
+2020-08-19 19:32:18.763 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-08-19 19:32:18.765 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-08-19 19:32:18.931 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-08-19 19:32:18.931 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 2214 ms
+2020-08-19 19:32:20.278 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-08-19 19:32:20.712 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-19 19:32:20.739 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:57  - LiveReload server is running on port 35729
+2020-08-19 19:32:20.764 INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Line:54  - Adding welcome page: class path resource [static/index.html]
+2020-08-19 19:32:21.458 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 - Context refreshed
+2020-08-19 19:32:21.461 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 - Found 1 custom documentation plugin(s)
+2020-08-19 19:32:21.462 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:169 - Skipping initializing disabled plugin bean swagger v2.0
+2020-08-19 19:32:21.475 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:202 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-19 19:32:21.476 INFO  com.medsys.nis.NisApplication Line:59  - Started NisApplication in 4.852 seconds (JVM running for 40.301)
+2020-08-19 19:32:21.481 INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener Line:63  - Condition evaluation unchanged
+2020-08-19 19:33:34.409 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-19 19:33:34.414 INFO  org.springframework.web.servlet.DispatcherServlet Line:524 - Initializing Servlet 'dispatcherServlet'
+2020-08-19 19:33:34.448 INFO  org.springframework.web.servlet.DispatcherServlet Line:546 - Completed initialization in 33 ms
+2020-08-19 19:34:11.745 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-19 19:34:15.710 INFO  com.medsys.nis.NisApplication Line:50  - Starting NisApplication on DESKTOP-8O1I1KB with PID 8836 (D:\zwStudyWeb\newNISHT\target\classes started by Super in D:\zwStudyWeb\newNISHT)
+2020-08-19 19:34:15.710 INFO  com.medsys.nis.NisApplication Line:647 - No active profile set, falling back to default profiles: default
+2020-08-19 19:34:17.309 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'shiroConfig' of type [com.medsys.nis.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$606e58f2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:34:17.331 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'loginServiceImpl' of type [com.medsys.nis.maintain.service.impl.LoginServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:34:17.333 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'myShiroRealm' of type [com.medsys.nis.realm.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:34:17.334 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:34:17.349 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:34:17.369 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b27dde19] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:34:18.101 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 8080 (http)
+2020-08-19 19:34:18.104 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-08-19 19:34:18.105 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-08-19 19:34:18.299 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-08-19 19:34:18.300 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 2587 ms
+2020-08-19 19:34:20.528 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-08-19 19:34:21.226 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-19 19:34:21.269 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:57  - LiveReload server is running on port 35729
+2020-08-19 19:34:21.298 INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Line:54  - Adding welcome page: class path resource [static/index.html]
+2020-08-19 19:34:22.119 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 - Context refreshed
+2020-08-19 19:34:22.124 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 - Found 1 custom documentation plugin(s)
+2020-08-19 19:34:22.124 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:169 - Skipping initializing disabled plugin bean swagger v2.0
+2020-08-19 19:34:22.138 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:202 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-19 19:34:22.140 INFO  com.medsys.nis.NisApplication Line:59  - Started NisApplication in 6.63 seconds (JVM running for 160.965)
+2020-08-19 19:34:22.145 INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener Line:63  - Condition evaluation unchanged
+2020-08-19 19:34:54.913 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-19 19:34:54.918 INFO  org.springframework.web.servlet.DispatcherServlet Line:524 - Initializing Servlet 'dispatcherServlet'
+2020-08-19 19:34:54.937 INFO  org.springframework.web.servlet.DispatcherServlet Line:546 - Completed initialization in 17 ms
+2020-08-19 19:42:09.458 INFO  com.medsys.nis.NisApplication Line:50  - Starting NisApplication on DESKTOP-8O1I1KB with PID 12180 (D:\zwStudyWeb\newNISHT\target\classes started by Super in D:\zwStudyWeb\newNISHT)
+2020-08-19 19:42:09.487 INFO  com.medsys.nis.NisApplication Line:651 - The following profiles are active: dev
+2020-08-19 19:42:10.161 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-19 19:42:10.163 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-19 19:42:14.428 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'shiroConfig' of type [com.medsys.nis.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$4492b8e8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:42:17.745 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'loginServiceImpl' of type [com.medsys.nis.maintain.service.impl.LoginServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:42:17.752 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'myShiroRealm' of type [com.medsys.nis.realm.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:42:17.766 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:42:17.870 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:42:18.054 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$96a23e0f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:42:20.383 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 8080 (http)
+2020-08-19 19:42:20.453 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-08-19 19:42:20.456 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-08-19 19:42:21.084 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-08-19 19:42:21.087 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 10922 ms
+2020-08-19 19:42:23.293 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-08-19 19:42:23.950 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-19 19:42:24.066 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:57  - LiveReload server is running on port 35729
+2020-08-19 19:42:24.163 INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Line:54  - Adding welcome page: class path resource [static/index.html]
+2020-08-19 19:42:25.754 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 - Context refreshed
+2020-08-19 19:42:25.796 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 - Found 1 custom documentation plugin(s)
+2020-08-19 19:42:25.849 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2020-08-19 19:42:26.504 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:202 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-19 19:42:26.513 INFO  com.medsys.nis.NisApplication Line:59  - Started NisApplication in 18.579 seconds (JVM running for 22.545)
+2020-08-19 19:42:29.321 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-19 19:42:29.323 INFO  org.springframework.web.servlet.DispatcherServlet Line:524 - Initializing Servlet 'dispatcherServlet'
+2020-08-19 19:42:29.348 INFO  org.springframework.web.servlet.DispatcherServlet Line:546 - Completed initialization in 24 ms
+2020-08-19 19:46:13.687 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-19 19:46:16.265 INFO  com.medsys.nis.NisApplication Line:50  - Starting NisApplication on DESKTOP-8O1I1KB with PID 12180 (D:\zwStudyWeb\newNISHT\target\classes started by Super in D:\zwStudyWeb\newNISHT)
+2020-08-19 19:46:16.266 INFO  com.medsys.nis.NisApplication Line:651 - The following profiles are active: dev
+2020-08-19 19:46:17.220 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'shiroConfig' of type [com.medsys.nis.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$4492b8e8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:46:17.251 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'loginServiceImpl' of type [com.medsys.nis.maintain.service.impl.LoginServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:46:17.253 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'myShiroRealm' of type [com.medsys.nis.realm.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:46:17.257 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:46:17.279 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:46:17.300 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$96a23e0f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:46:18.194 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 8080 (http)
+2020-08-19 19:46:18.199 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-08-19 19:46:18.201 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-08-19 19:46:18.402 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-08-19 19:46:18.404 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 2134 ms
+2020-08-19 19:46:19.352 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-19 19:46:19.486 INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Line:54  - Adding welcome page: class path resource [static/index.html]
+2020-08-19 19:46:20.768 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:57  - LiveReload server is running on port 35729
+2020-08-19 19:46:21.082 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:202 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-19 19:46:21.085 INFO  com.medsys.nis.NisApplication Line:59  - Started NisApplication in 4.931 seconds (JVM running for 257.117)
+2020-08-19 19:46:21.090 INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener Line:63  - Condition evaluation unchanged
+2020-08-19 19:47:58.365 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-19 19:47:58.371 INFO  org.springframework.web.servlet.DispatcherServlet Line:524 - Initializing Servlet 'dispatcherServlet'
+2020-08-19 19:47:58.393 INFO  org.springframework.web.servlet.DispatcherServlet Line:546 - Completed initialization in 21 ms
+2020-08-19 19:54:34.097 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-19 19:54:37.021 INFO  com.medsys.nis.NisApplication Line:50  - Starting NisApplication on DESKTOP-8O1I1KB with PID 12180 (D:\zwStudyWeb\newNISHT\target\classes started by Super in D:\zwStudyWeb\newNISHT)
+2020-08-19 19:54:37.024 INFO  com.medsys.nis.NisApplication Line:651 - The following profiles are active: dev
+2020-08-19 19:54:39.041 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'shiroConfig' of type [com.medsys.nis.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$4492b8e8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:54:39.064 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'loginServiceImpl' of type [com.medsys.nis.maintain.service.impl.LoginServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:54:39.065 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'myShiroRealm' of type [com.medsys.nis.realm.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:54:39.067 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:54:39.083 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:54:39.096 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$96a23e0f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 19:54:39.895 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 8080 (http)
+2020-08-19 19:54:39.900 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-08-19 19:54:39.906 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-08-19 19:54:40.173 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-08-19 19:54:40.174 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 3141 ms
+2020-08-19 19:54:42.997 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-08-19 19:54:43.706 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-19 19:54:43.743 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:57  - LiveReload server is running on port 35729
+2020-08-19 19:54:43.774 INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Line:54  - Adding welcome page: class path resource [static/index.html]
+2020-08-19 19:54:44.696 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 - Context refreshed
+2020-08-19 19:54:44.699 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 - Found 1 custom documentation plugin(s)
+2020-08-19 19:54:44.710 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2020-08-19 19:54:44.926 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:202 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-19 19:54:44.928 INFO  com.medsys.nis.NisApplication Line:59  - Started NisApplication in 8.042 seconds (JVM running for 760.96)
+2020-08-19 19:54:44.939 INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener Line:58  - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   Swagger2DocumentationConfiguration matched:
+      - @ConditionalOnWebApplication (required) found 'session' scope (OnWebApplicationCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2020-08-19 19:55:47.796 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-19 19:55:47.803 INFO  org.springframework.web.servlet.DispatcherServlet Line:524 - Initializing Servlet 'dispatcherServlet'
+2020-08-19 19:55:47.828 INFO  org.springframework.web.servlet.DispatcherServlet Line:546 - Completed initialization in 22 ms
+2020-08-19 20:32:58.542 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-19 20:33:01.889 INFO  com.medsys.nis.NisApplication Line:50  - Starting NisApplication on DESKTOP-8O1I1KB with PID 12180 (D:\zwStudyWeb\newNISHT\target\classes started by Super in D:\zwStudyWeb\newNISHT)
+2020-08-19 20:33:01.890 INFO  com.medsys.nis.NisApplication Line:651 - The following profiles are active: dev
+2020-08-19 20:33:03.491 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'shiroConfig' of type [com.medsys.nis.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$4492b8e8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 20:33:03.511 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'loginServiceImpl' of type [com.medsys.nis.maintain.service.impl.LoginServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 20:33:03.512 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'myShiroRealm' of type [com.medsys.nis.realm.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 20:33:03.514 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 20:33:03.527 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 20:33:03.537 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$96a23e0f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 20:33:04.476 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 8080 (http)
+2020-08-19 20:33:04.498 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-08-19 20:33:04.501 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-08-19 20:33:04.907 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-08-19 20:33:04.908 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 3011 ms
+2020-08-19 20:33:06.093 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-19 20:33:06.289 INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Line:54  - Adding welcome page: class path resource [static/index.html]
+2020-08-19 20:33:07.316 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:57  - LiveReload server is running on port 35729
+2020-08-19 20:33:07.541 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:202 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-19 20:33:07.548 INFO  com.medsys.nis.NisApplication Line:59  - Started NisApplication in 6.025 seconds (JVM running for 3063.58)
+2020-08-19 20:33:07.554 INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener Line:63  - Condition evaluation unchanged
+2020-08-19 20:33:10.737 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-19 20:33:14.063 INFO  com.medsys.nis.NisApplication Line:50  - Starting NisApplication on DESKTOP-8O1I1KB with PID 12180 (D:\zwStudyWeb\newNISHT\target\classes started by Super in D:\zwStudyWeb\newNISHT)
+2020-08-19 20:33:14.064 INFO  com.medsys.nis.NisApplication Line:651 - The following profiles are active: dev
+2020-08-19 20:33:15.448 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'shiroConfig' of type [com.medsys.nis.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$4492b8e8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 20:33:15.467 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'loginServiceImpl' of type [com.medsys.nis.maintain.service.impl.LoginServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 20:33:15.468 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'myShiroRealm' of type [com.medsys.nis.realm.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 20:33:15.471 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 20:33:15.489 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 20:33:15.512 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$96a23e0f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 20:33:16.948 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 8080 (http)
+2020-08-19 20:33:16.955 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-08-19 20:33:16.967 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-08-19 20:33:17.189 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-08-19 20:33:17.189 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 3113 ms
+2020-08-19 20:33:18.322 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-19 20:33:18.488 INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Line:54  - Adding welcome page: class path resource [static/index.html]
+2020-08-19 20:33:20.109 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:57  - LiveReload server is running on port 35729
+2020-08-19 20:33:20.358 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:202 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-19 20:33:20.360 INFO  com.medsys.nis.NisApplication Line:59  - Started NisApplication in 6.545 seconds (JVM running for 3076.392)
+2020-08-19 20:33:20.371 INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener Line:63  - Condition evaluation unchanged
+2020-08-19 20:33:22.968 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-19 20:33:26.783 INFO  com.medsys.nis.NisApplication Line:50  - Starting NisApplication on DESKTOP-8O1I1KB with PID 12180 (D:\zwStudyWeb\newNISHT\target\classes started by Super in D:\zwStudyWeb\newNISHT)
+2020-08-19 20:33:26.783 INFO  com.medsys.nis.NisApplication Line:651 - The following profiles are active: dev
+2020-08-19 20:33:28.354 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'shiroConfig' of type [com.medsys.nis.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$4492b8e8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 20:33:28.368 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'loginServiceImpl' of type [com.medsys.nis.maintain.service.impl.LoginServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 20:33:28.369 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'myShiroRealm' of type [com.medsys.nis.realm.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 20:33:28.370 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 20:33:28.382 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 20:33:28.396 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$96a23e0f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 20:33:29.628 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 8080 (http)
+2020-08-19 20:33:29.632 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-08-19 20:33:29.638 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-08-19 20:33:29.898 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-08-19 20:33:29.899 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 3110 ms
+2020-08-19 20:33:31.225 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-08-19 20:33:31.693 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-19 20:33:31.729 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:57  - LiveReload server is running on port 35729
+2020-08-19 20:33:31.758 INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Line:54  - Adding welcome page: class path resource [static/index.html]
+2020-08-19 20:33:32.386 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 - Context refreshed
+2020-08-19 20:33:32.389 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 - Found 1 custom documentation plugin(s)
+2020-08-19 20:33:32.397 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2020-08-19 20:33:32.546 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:202 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-19 20:33:32.547 INFO  com.medsys.nis.NisApplication Line:59  - Started NisApplication in 5.885 seconds (JVM running for 3088.579)
+2020-08-19 20:33:32.551 INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener Line:58  - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   Swagger2DocumentationConfiguration matched:
+      - @ConditionalOnWebApplication (required) found 'session' scope (OnWebApplicationCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2020-08-19 21:06:29.382 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-19 21:06:29.387 INFO  org.springframework.web.servlet.DispatcherServlet Line:524 - Initializing Servlet 'dispatcherServlet'
+2020-08-19 21:06:29.412 INFO  org.springframework.web.servlet.DispatcherServlet Line:546 - Completed initialization in 24 ms

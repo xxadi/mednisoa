@@ -1,0 +1,8 @@
+code: 0
+count: null
+data:
+bigAuth: "1"
+bigName: "权限"
+sonAuthList:
+0: {authId: "1001", bigAuth: "1", authUser: "修改", url: "http://178.0.0.1:8013//toPassword"}
+1: {authId: "10012", bigAuth: "1", authUser: "查询", url: "http://178.0.0.1:8013//toUser"}

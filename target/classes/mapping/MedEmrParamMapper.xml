@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.medsys.nis.maintain.mapper.IMedEmrParamMapper">
+
+    <select id="queryAllParam" resultType="com.medsys.nis.maintain.entity.MedEmrParamDO">
+        select
+        id,name,code,value,type,memo,create_time,
+        oper_code,oper_name,oper_time,hospital_code
+        from MEDEMR_PARAM
+        where hospital_code = #{hospitalCode}
+    </select>
+
+    <select id="queryParamByCode" parameterType="string" resultType="com.medsys.nis.maintain.entity.MedEmrParamDO">
+        select
+        id,name,code,value,type,memo,create_time,
+        oper_code,oper_name,oper_time,hospital_code
+        from MEDEMR_PARAM
+        where hospital_code = #{hospitalCode}
+        and code = #{code}
+    </select>
+
+    <insert id="insertParam" parameterType="com.medsys.nis.maintain.entity.MedEmrParamDO">
+        insert into MEDEMR_PARAM(
+            id,name,code,value,
+            type,memo,create_time,oper_code,
+            oper_name,oper_time,hospital_code
+        )
+        values(
+        SEQ_MEDEMR_PARAM.nextval,#{name,jdbcType=VARCHAR},#{code,jdbcType=VARCHAR},#{value,jdbcType=VARCHAR},
+        #{type,jdbcType=VARCHAR},#{memo,jdbcType=VARCHAR},sysdate,#{operCode,jdbcType=VARCHAR},
+        #{operName,jdbcType=VARCHAR},sysdate,#{hospitalCode,jdbcType=VARCHAR}
+        )
+    </insert>
+
+    <update id="updateParam" parameterType="com.medsys.nis.maintain.entity.MedEmrParamDO">
+        update MEDEMR_PARAM
+        set name=#{name,jdbcType=VARCHAR},code=#{code,jdbcType=VARCHAR},value=#{value,jdbcType=VARCHAR},
+        type=#{type,jdbcType=VARCHAR},memo=#{memo,jdbcType=VARCHAR},oper_code=#{operCode,jdbcType=VARCHAR},
+        oper_name=#{operName,jdbcType=VARCHAR},oper_time=sysdate,hospital_code=#{hospitalCode,jdbcType=VARCHAR}
+        where id=#{id}
+    </update>
+
+    <delete id="deleteParam">
+        delete from MEDEMR_PARAM where id=#{id}
+    </delete>
+</mapper>

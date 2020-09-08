@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.medsys.nis.maintain.mapper.IMedEmrCodeMapper">
+
+    <resultMap id="codeValue" type="com.medsys.nis.maintain.entity.MedEmrCodeDO">
+        <id property="id" column="id"/>
+        <result property="name" column="name"/>
+        <result property="code" column="code"/>
+        <result property="parentId" column="parent_id"/>
+        <result property="sortNum" column="sort_num"/>
+        <result property="isValid" column="is_valid"/>
+        <result property="wbCode" column="wb_code"/>
+        <result property="spellCode" column="spell_code"/>
+        <result property="customCode" column="custom_code"/>
+        <result property="createTime" column="create_time"/>
+        <result property="operTime" column="oper_time"/>
+        <result property="operName" column="oper_name"/>
+        <result property="operCode" column="oper_code"/>
+        <result property="hospitalCode" column="hospital_code"/>
+        <collection property="children" column="{parentId=id,hospitalCode=hospital_code}"
+                    ofType="com.medsys.nis.maintain.entity.MedEmrCodeDO"
+                    select="queryChildByParentId"/>
+    </resultMap>
+
+
+    <select id="queryRootCode" resultMap="codeValue">
+        select id,name,code,parent_id,sort_num,is_valid,wb_code,spell_code,
+        custom_code,create_time,oper_code,oper_name,oper_time,hospital_code
+        from MEDEMR_CODE
+        where hospital_code=#{hospitalCode} and parent_id='0'
+        order by sort_num
+    </select>
+
+    <select id="queryCodeTreeByCode" resultMap="codeValue">
+        select
+        id,name,code,parent_id,sort_num,is_valid,wb_code,spell_code,
+        custom_code,create_time,oper_code,oper_name,oper_time,hospital_code
+        from MEDEMR_CODE
+        where hospital_code=#{hospitalCode} and code=#{code}
+    </select>
+
+    <select id="queryCodeByCode" resultType="com.medsys.nis.maintain.entity.MedEmrCodeDO">
+        select
+        id,name,code,parent_id,sort_num,is_valid,wb_code,spell_code,
+        custom_code,create_time,oper_code,oper_name,oper_time,hospital_code
+        from MEDEMR_CODE
+        where hospital_code=#{hospitalCode} and code=#{code}
+        order by sort_num
+    </select>
+
+    <select id="queryChildByParentId" resultMap="codeValue">
+        select id,name,code,parent_id,sort_num,is_valid,wb_code,spell_code,
+        custom_code,create_time,oper_code,oper_name,oper_time,hospital_code
+        from MEDEMR_CODE
+        where hospital_code=#{hospitalCode} and parent_id=#{parentId}
+        order by sort_num
+    </select>
+
+    <insert id="insertCode" parameterType="com.medsys.nis.maintain.entity.MedEmrCodeDO">
+        insert into MEDEMR_CODE(
+            id,name,code,parent_id,
+            sort_num,is_valid,wb_code,spell_code,
+            custom_code,create_time,oper_code,oper_name,
+            oper_time,hospital_code
+        )
+        values(
+        SEQ_MEDEMR_CODE.nextval,#{name,jdbcType=VARCHAR},#{code,jdbcType=VARCHAR},#{parentId,jdbcType=BIGINT},
+        #{sortNum,jdbcType=INTEGER},#{isValid,jdbcType=INTEGER},#{wbCode,jdbcType=VARCHAR},#{spellCode,jdbcType=VARCHAR},
+        #{customCode,jdbcType=VARCHAR},sysdate,#{operCode,jdbcType=VARCHAR},#{operName,jdbcType=VARCHAR},
+        sysdate,#{hospitalCode,jdbcType=VARCHAR}
+        )
+    </insert>
+
+    <update id="updateCode" parameterType="com.medsys.nis.maintain.entity.MedEmrCodeDO">
+        update MEDEMR_CODE set
+        name=#{name,jdbcType=VARCHAR},code=#{code,jdbcType=VARCHAR},parent_id=#{parentId,jdbcType=BIGINT},
+        sort_num=#{sortNum,jdbcType=INTEGER},is_valid=#{isValid,jdbcType=INTEGER},wb_code=#{wbCode,jdbcType=VARCHAR},
+        spell_code=#{spellCode,jdbcType=VARCHAR},custom_code=#{customCode,jdbcType=VARCHAR},
+        oper_code=#{operCode,jdbcType=VARCHAR},oper_name=#{operName,jdbcType=VARCHAR},
+        oper_time=sysdate,hospital_code=#{hospitalCode,jdbcType=VARCHAR}
+        where id=#{id}
+    </update>
+
+    <update id="changeCodeState">
+        update MEDEMR_CODE set
+        is_valid=#{isValid,jdbcType=INTEGER}
+        where id=#{id}
+    </update>
+
+</mapper>
